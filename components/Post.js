@@ -9,7 +9,7 @@ export function Post(props) {
   );
 }
 
-export const PostArrow = ({ title, body }) => {
+const PostArrow = ({ title, body }) => {
   return (
     <View style={{ margin: 20, backgroundColor: "grey" }}>
       <Text>{title}</Text>
@@ -17,3 +17,5 @@ export const PostArrow = ({ title, body }) => {
     </View>
   );
 };
+
+export default PostArrow;
